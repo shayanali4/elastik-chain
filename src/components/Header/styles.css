@@ -1,0 +1,10 @@
+.navbar{
+    border-bottom: 3px solid gray;
+    /* color: #A4B4D6 !important; */
+}
+.bg-light{
+   background-color: #FFFFFF !important;
+}
+.navbar-light .navbar-brand.name{
+    color: #A4B4D6 !important;
+}

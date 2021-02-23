@@ -1,0 +1,259 @@
+.events-page{
+    text-align: center;
+}
+.events-page p{
+    font-size: 14px;
+}
+.hero-section-img{
+    min-width: 95%;
+    max-width: 100%;
+}
+.events-page .details{
+    /* background: rgb(0,0,36);
+    background: -moz-linear-gradient(180deg, rgba(0,0,36,1) 0%, rgba(0,0,36,1) 28%, rgba(43,72,144,1) 88%, rgba(76,128,228,1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(0,0,36,1) 0%, rgba(0,0,36,1) 28%, rgba(43,72,144,1) 88%, rgba(76,128,228,1) 100%);
+    background: linear-gradient(180deg, rgba(0,0,36,1) 0%, rgba(0,0,36,1) 28%, rgba(43,72,144,1) 88%, rgba(76,128,228,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000024",endColorstr="#4c80e4",GradientType=1); */
+}
+.events-page .details .first-row{
+    background-color: #000024;
+    padding: 40px 10px !important;
+}
+.events-page .details .first-row .text{
+    color: black;
+}
+.events-page .details .first-row .left{
+
+}
+.events-page .details .first-row .right{
+}
+.events-page .details .first-row .right>div{
+    background-color: #0B0E57;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.events-page .details .first-row .right>div .ico.star{
+    background-color: #F5119A;
+}
+.events-page .details .first-row .right>div .ico.star i{
+    color: #930D5D;
+    margin: 5px;
+    font-size: 32px;
+}
+.events-page .details .first-row .right>div .ico.message{
+    background-color: #8FF8D2;
+}
+.events-page .details .first-row .right>div .ico.message i{
+    color: #218460;
+    margin: 5px;
+    font-size: 32px;
+}
+.events-page .details .first-row .right>div .text{
+    color: white;
+    margin-left: 10px;
+    text-align: left;
+    /* margin: 5px; */
+    font-size: 32px;
+}
+.events-page .details .first-row .right>div .text p{
+}
+
+.events-page .details .second-row{
+    padding: 0 10%;
+    background: rgb(0,0,36);
+    background: -moz-linear-gradient(180deg, rgba(0,0,36,1) 0%, rgba(0,0,36,1) 0%, rgba(43,72,144,1) 100%, rgba(76,128,228,1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(0,0,36,1) 0%, rgba(0,0,36,1) 0%, rgba(43,72,144,1) 100%, rgba(76,128,228,1) 100%);
+    background: linear-gradient(180deg, rgba(0,0,36,1) 0%, rgba(0,0,36,1) 0%, rgba(43,72,144,1) 100%, rgba(76,128,228,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000024",endColorstr="#4c80e4",GradientType=1);
+}
+.events-page .details .second-row .second{
+    background-color: #0B0E57;
+}
+.events-page .details .second-row .second .large{
+    font-size: 60px;
+}
+.events-page .details .second-row .second p{
+    font-weight: bold;
+    color: #474A8B;
+}
+.events-page .details .second-row .third{
+    padding: 0px;
+}
+.events-page .details .second-row .third .row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.events-page .details .second-row .third .row>div{
+    background-color: #0B0E57;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 15px 0;
+    margin-bottom: 30px;
+    color: white;
+    text-align: left;
+    max-width: 32%;
+}
+.events-page .details .second-row .third .details-section-img{
+    max-width: 30%;
+    margin: 10px;
+}
+.events-page .schedule{
+    background-color: #000024;
+    color: white;
+    padding: 20px 10px;
+    padding-bottom: 0px;
+}
+.events-page .schedule .date{
+    margin-bottom: 20px;
+}
+.events-page .schedule .date>div {}
+.events-page .schedule .date>div .head {
+    background-color: #10116B;
+    min-height: 20px;
+    padding: 5px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.events-page .schedule .date>div .head h4{
+    float: left;
+}
+.events-page .schedule .date>div .head div{
+    float: right;
+}
+.events-page .schedule .date>div .body {
+    padding: 10px 0;
+    background-color: white;
+    /* display: none; */
+}
+.events-page .schedule .date>div .body>div {
+    color: black;
+    padding: 10px 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border-bottom: 1px solid black;
+}
+.events-page .schedule .date>div .body>div:last-child {
+    border-bottom: 0px;
+}
+.events-page .schedule .date>div .body .time{
+    background-color: #FFE9F4;
+    color: #F95DB8;
+    padding: 5px 10px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+.events-page .schedule .date>div .body .details{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+.events-page .schedule .date>div .body .details .users{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.events-page .schedule .date>div .body .details .users>div{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-right: 10px;
+}
+.events-page .schedule .date>div .body .details .users img{
+    width: 50px;
+    border-radius: 50%;
+    margin: 5px;
+}
+.events-page .schedule .mentors{
+    /* margin-top: 40px; */
+    padding: 50px;
+}
+.events-page .schedule .mentors>div{
+    margin-bottom: 30px;
+}
+.events-page .schedule .mentors .profile-img{
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+.events-page .schedule .mentors h4{
+    margin-bottom: 0;
+}
+.events-page .schedule .mentors p{
+    color: gray;
+}
+.events-page .sponsors{
+    padding: 50px;
+
+}
+.events-page .sponsors>div>div{
+    padding: 0;
+}
+.events-page .sponsors>div>div>div>div{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.events-page .sponsors>div>div>div{
+    background-color: #143CC9;
+    min-height: 50px;
+    margin-top: 5px;
+    margin: 2.5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.events-page .sponsors>div>div>div img{
+    width: 100px;
+    margin: 10px;
+}
+.events-page .faq{
+    padding: 20px;
+}
+.events-page .faq>div>div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.events-page .faq>div>div>div{
+    max-width: 80%;
+    background-color: white;
+    color: black;
+    text-align: left;
+    padding: 10px;
+
+}
+/* .events-page .sponsors>div.small{
+    max-width: 49%;
+} */
+
+
+@media only screen and (max-width: 600px) {
+    .inner-row{
+        width: 100%;
+        display: flex !important;
+        flex-direction: column;
+        margin: 5px 0;
+    }
+    .inner-row>div{
+        min-width: 100%;
+    }
+    .events-page .schedule .date>div .body>div{
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+    .events-page .schedule .date>div .body .details h4{
+        text-align: left;
+    }
+}
