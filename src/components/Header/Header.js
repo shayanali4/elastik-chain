@@ -7,7 +7,7 @@ function Header() {
         <>
             <Navbar sticky="top" collapseOnSelect expand="lg" bg="light" variant="light" className='red-nav'>
                 <Navbar.Brand className="name" href="#home">
-                    <img src="/images/crystalIco.png" alt="" />
+                    <img src="/images/logo/elastik-chain.png" alt="" />
                     Elastik-Chain
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />

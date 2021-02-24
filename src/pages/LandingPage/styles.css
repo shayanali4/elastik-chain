@@ -147,6 +147,58 @@
     cursor: pointer;
 }
 
+.landing-page .team{
+    margin-top: 100px;
+}
+.landing-page .team .show-case{
+    padding: 5px 20px;
+    background-color: #FDEFF2;
+    color: #ED8088;
+    width: fit-content;
+    margin: auto;
+    border-radius: 20px;
+}
+.landing-page .team>div{}
+.landing-page .team .box{
+    margin-top: 20px;
+    color: black;
+    transition: 0.7s;
+    cursor: pointer;
+    height: 100%;
+    -webkit-box-shadow: 0px 0px 24px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 24px -5px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 24px -5px rgba(0,0,0,0.75);
+}
+.landing-page .team .box:hover{
+    transform: scale(1.05);
+}
+.landing-page .team .box .box-img{}
+.landing-page .team .box .box-img img{
+    width: 100%;
+    /* margin: 35px 5px; */
+}
+.landing-page .team .box .box-body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.landing-page .team .box .box-body h4{
+    color: black;
+    font-size: 18px;
+}
+.landing-page .team .box .box-body p{
+    font-size: 14px;
+    text-align: center;
+}
+.landing-page .team .box .box-body .profession{
+    font-size: 14px;
+    text-align: center;
+    color: gray;
+}
 .landing-page .contact{
     margin-top: 100px;
 }
@@ -166,7 +218,7 @@
 }
 .landing-page .contact .form-col-first>div{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: flex-start;
 }
 .landing-page .contact .form-col-first>div>div{
@@ -174,4 +226,25 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
+}
+.landing-page .contact .form-col-first .icon{
+    background-color: #ebabc9;
+    padding: 9px 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.landing-page .contact .form-col-first i{
+    color: #E33B5B;
+    font-size: 30px;
+
+}
+.landing-page .contact .form-col-first h4{
+    color: black;
+    margin: 0;
+}
+.landing-page .contact .form-col-first>div>div>p{
+    text-align: left;
 }

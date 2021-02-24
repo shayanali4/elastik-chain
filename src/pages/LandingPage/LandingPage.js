@@ -9,7 +9,7 @@ function LandingPage() {
         <div className="landing-page">
 
             {/* Header */}
-            <Header />
+            {/* <Header /> */}
 
             {/* Hero Section */}
             <Container fluid className="hero-section">
@@ -37,7 +37,7 @@ function LandingPage() {
                         <Col md={3} sm={12}>
                             <div className="box">
                                 <div className="box-img">
-                                    <img src="/images/solana.png" alt="" />
+                                    <img src="/images/home/financial-2.png" alt="" />
                                 </div>
                                 <div className="box-body">
                                     <h4>SALT</h4>
@@ -48,7 +48,7 @@ function LandingPage() {
                         <Col md={3} sm={12}>
                             <div className="box">
                                 <div className="box-img">
-                                    <img src="/images/solana.png" alt="" />
+                                    <img src="/images/home/financial.png" alt="" />
                                 </div>
                                 <div className="box-body">
                                     <h4>SALT</h4>
@@ -59,7 +59,7 @@ function LandingPage() {
                         <Col md={3} sm={12}>
                             <div className="box">
                                 <div className="box-img">
-                                    <img src="/images/solana.png" alt="" />
+                                    <img src="/images/home/badbanny1.png" alt="" />
                                 </div>
                                 <div className="box-body">
                                     <h4>SALT</h4>
@@ -70,7 +70,7 @@ function LandingPage() {
                         <Col md={3} sm={12}>
                             <div className="box">
                                 <div className="box-img">
-                                    <img src="/images/solana.png" alt="" />
+                                    <img src="/images/home/badbanny.png" alt="" />
                                 </div>
                                 <div className="box-body">
                                     <h4>SALT</h4>
@@ -184,6 +184,53 @@ function LandingPage() {
                     </Row>
                 </div>
 
+                {/* Our Team */}
+                <div className="team">
+                    <p className="mb-4 show-case"><b>TEAM</b></p>
+                    <h4 className="mb-4">Our Hardworking <b className='text-danger'>Team</b></h4>
+                    <p className="description mb-4">
+                        From Morocco, France To India we love diversity.
+                    </p>
+                    <Row >
+                        <Col md={4} sm={12}>
+                            <div className="box">
+                                <div className="box-img">
+                                    <img src="/images/team/team-2.jpg" alt="" />
+                                </div>
+                                <div className="box-body">
+                                    <h4>Mohammed El Amine Idmoussi</h4>
+                                    <p className="profession">QA Automation Engineer</p>
+                                    <p>"We can automate everything but we can never replace the human touch"</p>
+                                </div>
+                            </div>
+                        </Col>
+                        <Col md={4} sm={12}>
+                            <div className="box">
+                                <div className="box-img">
+                                    <img src="/images/team/team-3.jpg" alt="" />
+                                </div>
+                                <div className="box-body">
+                                    <h4>Anannay Bhowmik</h4>
+                                    <p className="profession">Interaction Designer</p>
+                                    <p>"Iam passionate about design that blends with human psychology and imperfections"</p>
+                                </div>
+                            </div>
+                        </Col>
+                        <Col md={4} sm={12}>
+                            <div className="box">
+                                <div className="box-img">
+                                    <img src="/images/team/team-1.jpg" alt="" />
+                                </div>
+                                <div className="box-body">
+                                    <h4>Mourad Mamassi</h4>
+                                    <p className="profession">Full Stack Developer</p>
+                                    <p>"Whether its frontend or backend its always fun"</p>
+                                </div>
+                            </div>
+                        </Col>
+                    </Row>
+                </div>
+
                 {/* Contact Section */}
                 <div className="contact">
                     <p className="mb-4 show-case"><b>CONTACT</b></p>
@@ -196,14 +243,40 @@ function LandingPage() {
                             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3024.3581196170403!2d-74.00841558509565!3d40.71013224566764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2s!4v1614158319544!5m2!1sen!2s" height="350" allowfullscreen="" loading="lazy"></iframe>
                         </Col>
                     </Row>
-                    <Row>
+                    <Row className="my-5">
                         <Col className="form-col-first" md={4}>
                             <div>
-                                <div>
+                                <div className="icon">
                                     <i class="fa fa-map-marker" aria-hidden="true"></i>
                                 </div>
-                                <div></div>
+                                <div>
+                                    <h4>Location :</h4>
+                                    <p>2 place, Epinary-sur-seine, France 93800</p>
+                                </div>
                             </div>
+                            <div>
+                                <div className="icon">
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                                </div>
+                                <div>
+                                    <h4>Email :</h4>
+                                    <p>med.amine.idmoussi@gmail.com</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div className="icon">
+                                    <i class="fa fa-phone" aria-hidden="true"></i>
+                                </div>
+                                <div>
+                                    <h4>Call ( Whatsapp ) :</h4>
+                                    <p>+1 669 292 8807</p>
+                                </div>
+                            </div>
+                        </Col>
+                        <Col>
+                            <form >
+
+                            </form>
                         </Col>
                     </Row>
                     </div>
