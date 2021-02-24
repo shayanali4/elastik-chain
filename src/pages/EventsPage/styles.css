@@ -1,6 +1,9 @@
 .events-page{
     text-align: center;
 }
+.events-page .landing-page-options{
+    display: none;
+}
 .events-page p{
     font-size: 14px;
 }
@@ -247,6 +250,7 @@
     }
     .inner-row>div{
         min-width: 100%;
+
     }
     .events-page .schedule .date>div .body>div{
         flex-direction: column;

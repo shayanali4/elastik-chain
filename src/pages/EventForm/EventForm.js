@@ -5,7 +5,7 @@ function EventForm()  {
     return (
 
 <div>
-<button type="button" className="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
+<button type="button" className="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Form</button>
 <div id="myModal" className="modal fade" role="dialog">
         <div className="modal-dialog">
           {/* Modal content*/}

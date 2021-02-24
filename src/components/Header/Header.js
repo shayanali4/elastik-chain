@@ -5,7 +5,7 @@ import './styles.css';
 function Header() {
     return (
         <>
-            <Navbar sticky="top" collapseOnSelect expand="lg" bg="light" variant="light">
+            <Navbar sticky="top" collapseOnSelect expand="lg" bg="light" variant="light" className='red-nav'>
                 <Navbar.Brand className="name" href="#home">
                     <img src="/images/crystalIco.png" alt="" />
                     Elastik-Chain
@@ -15,18 +15,27 @@ function Header() {
                     <Nav className="m-auto">
                         {/* <Nav.Link href="#features">Features</Nav.Link>
                         <Nav.Link href="#pricing">Pricing</Nav.Link> */}
-                        <Form inline>
+                        <Form inline className="search-area">
                             <FormControl type="text" placeholder="Search" className="mr-sm-2" />
                             <Button variant="outline-success">
                                 <i class="fa fa-search" aria-hidden="true"></i>
                             </Button>
                         </Form>
                     </Nav>
-                    <Nav>
-                        <Nav.Link href="#deets">Explore</Nav.Link>
-                        <Nav.Link eventKey={2} href="#memes">
+                    <Nav className="event-page-options">
+                        <Nav.Link eventKey={1} href="#">Explore</Nav.Link>
+                        <Nav.Link eventKey={2} href="#">
                             Login
                         </Nav.Link>
+                    </Nav>
+                    <Nav className="landing-page-options">
+                        <Nav.Link eventKey={1} href="#">Show Cases</Nav.Link>
+                        <Nav.Link eventKey={2} href="#">
+                            How It Works
+                        </Nav.Link>
+                        <Nav.Link eventKey={3} href="#">About</Nav.Link>
+                        <Nav.Link eventKey={4} href="#">Team</Nav.Link>
+                        <Nav.Link eventKey={5} href="#">Contact</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
