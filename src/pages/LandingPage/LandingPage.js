@@ -91,46 +91,42 @@ function LandingPage() {
                     </p>
                     <Row >
                         <Col md={3} sm={12}>
-                            <div className="box">
+                            <div className="box pt-3">
                                 <div className="box-img">
-                                    <img src="/images/solana.png" alt="" />
+                                    <img src="/images/icons/1.png" alt="" />
                                 </div>
                                 <div className="box-body">
-                                    <h4>SALT</h4>
-                                    <p>Dapps is a decentralized computer application that runs on a distributed computing system, Dapps is a decentralized computer application that runs on a distributed computing system.</p>
+                                    <p>You have an amazing idea and you made an MVP of it.</p>
                                 </div>
                             </div>
                         </Col>
                         <Col md={3} sm={12}>
-                            <div className="box">
+                            <div className="box pt-5">
                                 <div className="box-img">
-                                    <img src="/images/solana.png" alt="" />
+                                    <img src="/images/icons/2.png" alt="" />
                                 </div>
                                 <div className="box-body">
-                                    <h4>SALT</h4>
-                                    <p>Dapps is a decentralized computer application that runs on a distributed computing system, Dapps is a decentralized computer application that runs on a distributed computing system.</p>
+                                    <p>Now, you need sponsors to bring that into a full fledged product.</p>
                                 </div>
                             </div>
                         </Col>
                         <Col md={3} sm={12}>
-                            <div className="box">
+                            <div className="box pt-4">
                                 <div className="box-img">
-                                    <img src="/images/solana.png" alt="" />
+                                    <img src="/images/icons/3.png" alt="" />
                                 </div>
                                 <div className="box-body">
-                                    <h4>SALT</h4>
-                                    <p>Dapps is a decentralized computer application that runs on a distributed computing system, Dapps is a decentralized computer application that runs on a distributed computing system.</p>
+                                    <p>We give you the platform, and thousands of people will choose and vote for the ideas they love.</p>
                                 </div>
                             </div>
                         </Col>
                         <Col md={3} sm={12}>
-                            <div className="box">
+                            <div className="box pt-3">
                                 <div className="box-img">
-                                    <img src="/images/solana.png" alt="" />
+                                    <img src="/images/icons/4.png" alt="" />
                                 </div>
                                 <div className="box-body">
-                                    <h4>SALT</h4>
-                                    <p>Dapps is a decentralized computer application that runs on a distributed computing system, Dapps is a decentralized computer application that runs on a distributed computing system.</p>
+                                    <p>We have investors who would actually invest in the most amazing idea.</p>
                                 </div>
                             </div>
                         </Col>
