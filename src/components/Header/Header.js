@@ -16,10 +16,10 @@ function Header() {
                         {/* <Nav.Link href="#features">Features</Nav.Link>
                         <Nav.Link href="#pricing">Pricing</Nav.Link> */}
                         <Form inline className="search-area">
-                            <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-                            <Button variant="outline-success">
+                            <input type="text" placeholder="Explore amazing ideas" />
+                            <button >
                                 <i class="fa fa-search" aria-hidden="true"></i>
-                            </Button>
+                            </button>
                         </Form>
                     </Nav>
                     <Nav className="event-page-options">
@@ -29,13 +29,13 @@ function Header() {
                         </Nav.Link>
                     </Nav>
                     <Nav className="landing-page-options">
-                        <Nav.Link eventKey={1} href="#">Show Cases</Nav.Link>
-                        <Nav.Link eventKey={2} href="#">
+                        <Nav.Link eventKey={1} href="#showcases">Show Cases</Nav.Link>
+                        <Nav.Link eventKey={2} href="#work">
                             How It Works
                         </Nav.Link>
-                        <Nav.Link eventKey={3} href="#">About</Nav.Link>
-                        <Nav.Link eventKey={4} href="#">Team</Nav.Link>
-                        <Nav.Link eventKey={5} href="#">Contact</Nav.Link>
+                        <Nav.Link eventKey={3} href="#about">About</Nav.Link>
+                        <Nav.Link eventKey={4} href="#team">Team</Nav.Link>
+                        <Nav.Link eventKey={5} href="#contact">Contact</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>

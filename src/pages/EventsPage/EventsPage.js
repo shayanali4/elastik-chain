@@ -14,7 +14,7 @@ function EventsPage() {
             <Container className="mt-5">
                 <Row>
                     <Col>
-                        <Image src="/images/event_name_bg.png" rounded className="hero-section-img" />
+                        <Image src="/images/backgrounds/event_name_bg.png" rounded className="hero-section-img" />
                     </Col>
                 </Row>
             </Container>

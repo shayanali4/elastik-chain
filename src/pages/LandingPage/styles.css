@@ -2,12 +2,19 @@
     
 }
 
-/* .landing-page .red-nav{
+.landing-page .red-nav{
     background-color: #E43C5C !important;
-} */
-/* .landing-page .navbar-light .navbar-brand.name {
     color: white !important;
-} */
+}
+.landing-page .navbar-light .navbar-brand.name {
+    color: white !important;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.landing-page .nav-link{
+    color: white !important;
+}
+
 .landing-page .navbar-light .navbar-toggler{
 
 }
@@ -322,7 +329,7 @@
     margin-left: 0;
 }
 .landing-page .sub-footer .newsletter{
-    width: 100%;
+    min-width: fit-content;
     display: flex;
     border: 1px solid #E43C5C;
     align-items: center;

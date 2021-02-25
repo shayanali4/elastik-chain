@@ -10,7 +10,7 @@ function LandingPage() {
         <div className="landing-page">
 
             {/* Header */}
-            {/* <Header /> */}
+            <Header />
 
             {/* Hero Section */}
             <Container fluid className="hero-section">
@@ -28,7 +28,7 @@ function LandingPage() {
             <Container className="main-section text-center my-4 py-4">
 
                 {/* Apps Section*/}
-                <div className="apps mb-5">
+                <div id="showcases" className="apps mb-5">
                     <p className="mb-4 show-case"><b>SHOW CASES</b></p>
                     <h4 className="mb-4">Here is some awesome <b className='text-danger'>DApps</b></h4>
                     <p className="description mb-4">
@@ -83,7 +83,7 @@ function LandingPage() {
                 </div>
 
                 {/* How It Works Section */}
-                <div className="work">
+                <div id="work" className="work">
                     <p className="mb-4 show-case"><b>HOW IT WORKS</b></p>
                     <h4 className="mb-4">How It <b className='text-danger'>Works</b></h4>
                     <p className="description mb-4">
@@ -134,7 +134,7 @@ function LandingPage() {
                 </div>
 
                 {/* About Section */}
-                <div className="about">
+                <div id="about" className="about">
                     <p className="mb-4 show-case"><b>ABOUT</b></p>
                     <h4 className="mb-4">Learn More <b className='text-danger'>About Us</b></h4>
                     <p className="description mb-4">
@@ -182,7 +182,7 @@ function LandingPage() {
                 </div>
 
                 {/* Our Team */}
-                <div className="team">
+                <div id="team" className="team">
                     <p className="mb-4 show-case"><b>TEAM</b></p>
                     <h4 className="mb-4">Our Hardworking <b className='text-danger'>Team</b></h4>
                     <p className="description mb-4">
@@ -229,7 +229,7 @@ function LandingPage() {
                 </div>
 
                 {/* Contact Section */}
-                <div className="contact">
+                <div id="contact" className="contact">
                     <p className="mb-4 show-case"><b>CONTACT</b></p>
                     <h4 className="mb-4">Contact <b className='text-danger'>Us</b></h4>
                     <p className="description mb-4">
@@ -344,7 +344,7 @@ function LandingPage() {
                     </Row>
                 </Container>
             </Container>
-            
+
             {/* Footer */}
             <Container fluid className="footer">
                 <Row>

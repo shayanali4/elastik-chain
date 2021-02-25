@@ -8,3 +8,29 @@
 .navbar-light .navbar-brand.name{
     color: #A4B4D6 !important;
 }
+.navbar-light .name img{
+    width: 70px;
+}
+.navbar .form-inline{
+    border-bottom: 2px solid gray;
+    padding: 5px;
+    width: 500px;
+    max-width: 70%;
+}
+.navbar .form-inline input{
+    border: 0px;
+    width: 90%;
+}
+.navbar .form-inline input:focus{
+    outline: none !important;
+    border: 0px !important;
+}
+.navbar .form-inline button{
+    border: 0px;
+    background-color: transparent;
+}
+.navbar .form-inline button:focus{
+    outline: none !important;
+    border: 0px !important;
+    background-color: transparent;
+}
