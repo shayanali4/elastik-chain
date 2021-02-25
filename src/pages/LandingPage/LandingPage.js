@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Button, Card, Col, Container, Row } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import Header from '../../components/Header/Header';
 import './styles.css';
 
@@ -41,7 +42,7 @@ function LandingPage() {
                                 </div>
                                 <div className="box-body">
                                     <h4>SALT</h4>
-                                    <p>Dapps is a decentralized computer application that runs on a distributed computing system, Dapps is a decentralized computer application that runs on a distributed computing system.</p>
+                                    <p>Offering cash loans in return for cryptocurrency collateral, SALT managed to serve those who are in need of cash but don't want to sell their tokens.</p>
                                 </div>
                             </div>
                         </Col>
@@ -51,8 +52,8 @@ function LandingPage() {
                                     <img src="/images/home/financial.png" alt="" />
                                 </div>
                                 <div className="box-body">
-                                    <h4>SALT</h4>
-                                    <p>Dapps is a decentralized computer application that runs on a distributed computing system, Dapps is a decentralized computer application that runs on a distributed computing system.</p>
+                                    <h4>Stellar</h4>
+                                    <p>Stellar, or Stellar Lumens, is an open source, decentralized protocol for digital currency to fiat money transfers which allows cross-border transactions between any pair of currencies.</p>
                                 </div>
                             </div>
                         </Col>
@@ -62,8 +63,8 @@ function LandingPage() {
                                     <img src="/images/home/badbanny1.png" alt="" />
                                 </div>
                                 <div className="box-body">
-                                    <h4>SALT</h4>
-                                    <p>Dapps is a decentralized computer application that runs on a distributed computing system, Dapps is a decentralized computer application that runs on a distributed computing system.</p>
+                                    <h4>OmiseGo</h4>
+                                    <p>The OMG Network allows you to access, manage, and transact with digital assets that are kept securely on the blockchain.</p>
                                 </div>
                             </div>
                         </Col>
@@ -73,8 +74,8 @@ function LandingPage() {
                                     <img src="/images/home/badbanny.png" alt="" />
                                 </div>
                                 <div className="box-body">
-                                    <h4>SALT</h4>
-                                    <p>Dapps is a decentralized computer application that runs on a distributed computing system, Dapps is a decentralized computer application that runs on a distributed computing system.</p>
+                                    <h4>Fintech Pro</h4>
+                                    <p>Pro Fintech provide liquidity and trading management, IT support, development and consultancy services to the financial sector. With our proactive and strategic approach to your requirements, we are poised to deliver first time, every time.</p>
                                 </div>
                             </div>
                         </Col>
@@ -200,7 +201,7 @@ function LandingPage() {
                                 <div className="box-body">
                                     <h4>Mohammed El Amine Idmoussi</h4>
                                     <p className="profession">QA Automation Engineer</p>
-                                    <p>"We can automate everything but we can never replace the human touch"</p>
+                                    <p><i>"We can automate everything but we can never replace the human touch"</i></p>
                                 </div>
                             </div>
                         </Col>
@@ -274,14 +275,80 @@ function LandingPage() {
                             </div>
                         </Col>
                         <Col>
-                            <form >
-
+                            <form>
+                                <Row className="form-row">
+                                    <Col md={6} sm={12}>
+                                        <input type="text" placeholder="Your Name" />
+                                    </Col>
+                                    <Col md={6} sm={12}>
+                                        <input type="email" placeholder="Your Email" />
+                                    </Col>
+                                    <Col md={12} sm={12}>
+                                        <input type="text" placeholder="Subject" />
+                                    </Col>
+                                    <Col md={12} sm={12}>
+                                        <textarea placeholder="Your Message"></textarea>
+                                    </Col>
+                                    <Col>
+                                        <button type="submit">
+                                            Send Message
+                                        </button>
+                                    </Col>
+                                </Row>
                             </form>
                         </Col>
                     </Row>
-                    </div>
+                </div>
+                
             </Container>
-            
+
+            {/* Sub Footer */}
+            <Container fluid className="sub-footer">
+                <Container>
+                    <Row>
+                        <Col md="3" sm={12}>
+                            <h3>Elastik-Chain</h3>
+                            <h6>Phone :</h6>
+                            <h6>Email :</h6>
+                        </Col>
+                        <Col md="3" sm={12}>
+                            <h5>Useful Links</h5>
+                            <div className="links">
+                                <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                <Link to="#home">Home</Link>
+                            </div>
+                            <div className="links">
+                                <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                <Link to="#about">About Us</Link>
+                            </div>
+                            <div className="links">
+                                <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                <Link to="#showcases">Show Cases</Link>
+                            </div>
+                            <div className="links">
+                                <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                <Link to="#tos">Terms of Service</Link>
+                            </div>
+                            <div className="links">
+                                <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                <Link to="#privacy">Privacy Policy</Link>
+                            </div>
+                        </Col>
+                        <Col md="3" sm={12}>
+                            <h5>Our Show Cases</h5>
+                        </Col>
+                        <Col md="3" sm={12}>
+                            <h5>Join Our Newsletter</h5>
+                            <h6>From Morocco, France To India we love diversity.</h6>
+                            <div className="newsletter">
+                                <input type="text" />
+                                <button>Subscribe</button>
+                            </div>
+                        </Col>
+                    </Row>
+                </Container>
+            </Container>
+
         </div>
     )
 }
