@@ -326,7 +326,7 @@
     display: flex;
     border: 1px solid #E43C5C;
     align-items: center;
-    justify-content: start;
+    justify-content: flex-start;
     border-radius: 20px;
     margin-top: 20px;
 }
@@ -335,6 +335,9 @@
     border: none;
     margin-left: 5px;
 }
+.landing-page .sub-footer .newsletter input:focus{
+    outline: none;
+}
 .landing-page .sub-footer .newsletter button{
     padding: 5px 20px;
     border-radius: 20px;
@@ -342,4 +345,17 @@
     background-color: #E43C5C;
     color: white;
     border: 1px solid #E43C5C;
+}
+.landing-page .footer{
+    background-color: #fbefef;
+    padding: 10px 40px;
+}
+.landing-page .footer span{
+    /* height: 50px;
+    width: 50px; */
+    margin: 5px 10px;
+    color: #E43C5C;
+}
+.landing-page .footer span i{
+    font-size: 30px;
 }

@@ -344,8 +344,34 @@ function LandingPage() {
                     </Row>
                 </Container>
             </Container>
+            
+            {/* Footer */}
+            <Container fluid className="footer">
+                <Row>
+                    <Col md="6" sm="12">
+                        <p>&#169; Copyright <b>Elastik-Chain</b>. All Rights Reserved.</p>
+                    </Col>
+                    <Col md="6" sm="12">
+                        <div>
+                            <span>
+                                <i class="fab fa-facebook-square"></i>
+                            </span>
+                            <span>
+                                <i class="fab fa-twitter-square"></i>
+                            </span>
+                            <span>
+                                <i class="fab fa-linkedin"></i>
+                            </span>
+                            <span>
+                                <i class="fab fa-instagram-square"></i>
+                            </span>
+                        </div>
+                    </Col>
+                </Row>
+            </Container>
 
         </div>
+        
     )
 }
 
