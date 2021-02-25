@@ -9,7 +9,7 @@ function ProjectPage()  {
         <div className='project-page'>
           <Header />
         </div>
-        <div class="container ">
+        <div class="container coltainer0 ">
           <div class="row ">
             <div class="col-md-8  " >
               <p>
@@ -23,7 +23,7 @@ function ProjectPage()  {
           </div>
           <div class="row">
             <div className="col-md-4 col-23">
-              <img src={mobileimage} alt="" />
+              <img src="/images/projects/description/project2-description.png" alt="" />
             </div>
             <div class="col-md-8">              
               <div class="first">               
@@ -48,7 +48,7 @@ function ProjectPage()  {
                 </div>                
               </div>
            </div>
-            <div class="row" >
+            <div class="row row1234" >
               <div className="col-md-8 col123">
                 <div className="about">
                   <h4>About the idea</h4>
@@ -67,7 +67,8 @@ function ProjectPage()  {
                     <span></span>
                   </div>
                   <div className="second">
-                    <h5>  STEP 1 Lorem ipsum dolor tur quas provident accusantium, nulla ducimus explicabo qui!</h5>
+                    <h5>  STEP 1  </h5>
+                    <p> Lorem ipsum dolor tur quas provident accusantium, nulla ducimus explicabo qui! </p>
                   </div>
                 </div>
                 <div className="circleportion">                 
@@ -78,8 +79,9 @@ function ProjectPage()  {
                     <span></span>
                   </div>
                   <div className="second">
-                    <h5>  STEP 2 Lorem ipsum doates  provident accusantium, nulla ducimus explicabo qui!</h5>
-                  </div>                 
+                    <h5>  STEP 2  </h5>
+                    <p> Lorem ipsum dolor tur quas provident accusantium, nulla ducimus explicabo qui! </p>
+                  </div>               
                 </div>                
                 <div className="circleportion"> 
                   <div className="first">
@@ -88,177 +90,67 @@ function ProjectPage()  {
                     </span>
                     <span></span>                   
                   </div>
-                  
-
-
-<div className="second">
-
-
-<h5>  STEP 3 Lorem ipsum dlanditiisam aspernatur quas provident accusantium, nulla ducimus explicabo qui!</h5>
-
-
-
-
-</div>
-
-</div>
-
-
-
-
-<div className="circleportion">   
-
-<div className="first">
-
-
-  <span className="dot">  <p> + </p></span>  <span></span>
-</div>
-
-
-<div className="second">
-
-
-<h5>  <button>Add more steps</button>  </h5>
-
-
-
-
-</div>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</div>
-
-
-
-
-
-
-
-<div className="row subrow">
-  <h4>Team</h4>
-
-  <div className="col-md-8 col9">
-        <div className="col-md-4  col24">
-            <a href="/w3images/lights.jpg">
-              <img src={profileteam} alt="Lights" style={{width: '100%'}} />
-              <div className="caption">
-                <p>Shaheer</p>
+                  <div className="second">
+                    <h5>  STEP 3  </h5>
+                    <p> Lorem ipsum dolor tur quas provident accusantium, nulla ducimus explicabo qui! </p>
+                  </div>
+                </div>
+                <div className="circleportion">  
+                  <div className="first">
+                    <span className="dot">
+                      <p> + </p></span>  <span></span>
+                  </div>
+                  <div className="second">
+                    <h5>
+                      <button>Add more steps</button>
+                    </h5>
+                  </div>
+                </div>
               </div>
-            </a>
-        </div>
-        <div className="col-md-4 col24">
-            <a href="/w3images/nature.jpg">
-              <img src={profileteam} alt="Nature" style={{width: '100%'}} />
-              <div className="caption">
-                <p>Ahmed</p>
+              <div className="row subrow">               
+                <h4>Team</h4>
+                <div className="col-md-8 col9">                
+                  <div className="col-md-4  col24">                   
+                    <a href="/w3images/lights.jpg">                     
+                      <img src={profileteam} alt="Lights" style={{ width: '100%' }} />                     
+                      <div className="caption">                   
+                        <p>Shaheer</p>                      
+                      </div>                     
+                    </a>                    
+                  </div>                 
+                  <div className="col-md-4 col24">                    
+                    <a href="/w3images/nature.jpg">                     
+                      <img src={profileteam} alt="Nature" style={{ width: '100%' }} />                     
+                      <div className="caption">                        
+                        <p>Ahmed</p>               
+                      </div>                   
+                    </a>           
+                  </div>             
+                  <div className="col-md-4 col24">          
+                    <a href="/w3images/fjords.jpg">                
+                      <img src={profileteam} alt="Fjords" style={{ width: '100%' }} />                  
+                      <div className="caption">                  
+                        <p>Ali.</p>                       
+                      </div>                   
+                    </a>                   
+                  </div>                 
+                </div>               
               </div>
-            </a>
+            </div>            
+          </div>
+        </div>       
+        <div className="container-fluid">         
+          <div className="row">       
+            <div className="col-md-12 col-12">             
+              <h4>Invite Teammates</h4>           
+              <div class="input-group">               
+                <input type="text" className="form-control formcontrol1" aria-label="Amount (to the nearest dollar)" />                 
+                <button type="button" class="btn btn-primary">Send Invite</button>       
+              </div>             
+            </div>          
+          </div>         
         </div>
-        <div className="col-md-4 col24">
-            <a href="/w3images/fjords.jpg">
-              <img src={profileteam} alt="Fjords" style={{width: '100%'}} />
-              <div className="caption">
-                <p>Ali.</p>
-              </div>
-            </a>
-        </div>
-      </div>
-      </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</div>
-     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</div>
-
-
-<div className="container-fluid">
-
-
-<div className="row">
-
-
-  <div className="col-md-12 col-12">
-
-<h4>Invite Teammates</h4>
-
-<div class="input-group">
-        <input type="text" className="form-control formcontrol1" aria-label="Amount (to the nearest dollar)" /> 
-          <button type="button" class="btn btn-primary">Send Invite</button>
-     
-
-        
-      </div>
-  </div>
-
-</div>
-</div>
-
-
-
-  
-     
-
-      
-
- 
-
-
-
-
-
-
-
-</>
-            
-
-      
-
+      </>
     );
   }
 

@@ -4,10 +4,10 @@ import {
     Route
 } from "react-router-dom";
 import EventsPage from '../pages/EventsPage/EventsPage';
-import EventForm from '../pages/EventForm/EventForm';
 import LandingPage from '../pages/LandingPage/LandingPage';
 import ProjectPage from '../pages/ProjectPage/ProjectPage';
 import DetailsPage from '../pages/DetailsPage';
+import RegistrationForm from '../pages/RegistationForm/RegistrationForm';
 
 export default class Routers extends Component {
     render() {
@@ -16,7 +16,7 @@ export default class Routers extends Component {
 
                 <Route path='/' exact component={DetailsPage} />
                 <Route path='/events' exact component={EventsPage} />
-                <Route path='/create' exact component={EventForm} />
+                <Route path='/register' exact component={RegistrationForm} />
                 <Route path='/project' exact component={ProjectPage} />
                 <Route path='/landingpage' exact component={LandingPage} />
 

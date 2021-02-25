@@ -89,21 +89,21 @@ function EventsPage() {
                         <Container fluid>
                             <Row className="inner-row">
                                 <Col sm="12" md="3">
-                                    <Image src="/images/aave.jpg" rounded className="details-section-img" />
+                                    <Image src="/images/sponsors/aave.jpg" rounded className="details-section-img" />
                                     <div className="text">
                                         <h3>AAVE</h3>
                                         <p>20,000+ ups fro grabs.</p>
                                     </div>
                                 </Col>
                                 <Col sm="12" md="4">
-                                    <Image src="/images/solana.png" rounded className="details-section-img" />
+                                    <Image src="/images/sponsors/2.jfif" rounded className="details-section-img" />
                                     <div className="text">
                                         <h3>1INCH</h3>
                                         <p>8000+ ups fro grabs.</p>
                                     </div>
                                 </Col>
                                 <Col sm="12" md="4">
-                                    <Image src="/images/chain.jfif" rounded className="details-section-img" />
+                                    <Image src="/images/sponsors/3.png" rounded className="details-section-img" />
                                     <div className="text">
                                         <h3>CHAINLINK</h3>
                                         <p>5000+ ups fro grabs.</p>
@@ -124,14 +124,6 @@ function EventsPage() {
                             <h2>SCHEDULE</h2>
                     </Col>
                     <Col md="8" sm="12">
-                            {/* <div className="text-center">
-                                <div>
-                                    <Image src="/images/aave.jpg" rounded className="details-section-img" />
-                                    <div className="text text-center">
-                                        <h3>AAVE CHAINLINK</h3>
-                                    </div>
-                                </div>
-                            </div> */}
                         <div className="date">
                             <div>
                                 <div className="head">
@@ -149,11 +141,11 @@ function EventsPage() {
                                             <h4>Team Formation WorkShop</h4>
                                             <div className="users">
                                                 <div>
-                                                    <Image src="/images/profile.jpg" />
+                                                    <Image src="/images/team/1.jpeg" />
                                                     <h6>Emily Hobbs</h6>
                                                 </div>
                                                 <div>
-                                                    <Image src="/images/profile.jpg" />
+                                                    <Image src="/images/team/2.jpeg" />
                                                     <h6>Emily Hobbs</h6>
                                                 </div>
                                             </div>
@@ -167,27 +159,27 @@ function EventsPage() {
                                             <h4>White Hat Panel: DeFi Exploits</h4>
                                             <div className="users">
                                                 <div>
-                                                    <Image src="/images/profile.jpg" />
+                                                    <Image src="/images/team/3.jpeg" />
                                                     <h6>Emily Hobbs</h6>
                                                 </div>
                                                 <div>
-                                                    <Image src="/images/profile.jpg" />
+                                                    <Image src="/images/team/4.jpg" />
                                                     <h6>Emily Hobbs</h6>
                                                 </div>
                                                 <div>
-                                                    <Image src="/images/profile.jpg" />
+                                                    <Image src="/images/team/5.jpeg" />
                                                     <h6>Emily Hobbs</h6>
                                                 </div>
                                                 <div>
-                                                    <Image src="/images/profile.jpg" />
+                                                    <Image src="/images/team/6.jpg" />
                                                     <h6>Emily Hobbs</h6>
                                                 </div>
                                                 <div>
-                                                    <Image src="/images/profile.jpg" />
+                                                    <Image src="/images/team/7.jpeg" />
                                                     <h6>Emily Hobbs</h6>
                                                 </div>
                                                 <div>
-                                                    <Image src="/images/profile.jpg" />
+                                                    <Image src="/images/team/8.jpeg" />
                                                     <h6>Emily Hobbs</h6>
                                                 </div>
                                             </div>
@@ -201,7 +193,7 @@ function EventsPage() {
                                             <h4>Team Formation WorkShop</h4>
                                             <div className="users">
                                                 <div>
-                                                    <Image src="/images/profile.jpg" />
+                                                    <Image src="/images/team/9.jpg" />
                                                     <h6>Emily Hobbs</h6>
                                                 </div>
                                             </div>
@@ -228,11 +220,11 @@ function EventsPage() {
                                             <h4>Brainstorm Session</h4>
                                             <div className="users">
                                                 <div>
-                                                    <Image src="/images/profile.jpg" />
+                                                    <Image src="/images/team/10.jpg" />
                                                     <h6>Emily Hobbs</h6>
                                                 </div>
                                                 <div>
-                                                    <Image src="/images/profile.jpg" />
+                                                    <Image src="/images/team/1.jpeg" />
                                                     <h6>Emily Hobbs</h6>
                                                 </div>
                                             </div>
@@ -260,11 +252,11 @@ function EventsPage() {
                                             <h4>Event Kickoff</h4>
                                             <div className="users">
                                                 <div>
-                                                    <Image src="/images/profile.jpg" />
+                                                    <Image src="/images/team/1.jpeg" />
                                                     <h6>Emily Hobbs</h6>
                                                 </div>
                                                 <div>
-                                                    <Image src="/images/profile.jpg" />
+                                                    <Image src="/images/team/2.jpg" />
                                                     <h6>Emily Hobbs</h6>
                                                 </div>
                                             </div>
@@ -291,62 +283,62 @@ function EventsPage() {
                 <h2>JUDGES AND MENTORS</h2>
                 <Row className="mentors">
                     <Col md="3" xs="6">
-                        <Image src="/images/profile.jpg" className="profile-img" />
+                        <Image src="/images/team/1.jpeg" className="profile-img" />
                         <h4>Name</h4>
                         <p>Designation</p>
                     </Col>
                     <Col md="3" xs="6">
-                        <Image src="/images/profile.jpg" className="profile-img" />
+                        <Image src="/images/team/2.jpg" className="profile-img" />
                         <h4>Name</h4>
                         <p>Designation</p>
                     </Col>
                     <Col md="3" xs="6">
-                        <Image src="/images/profile.jpg" className="profile-img" />
+                        <Image src="/images/team/3.jpeg" className="profile-img" />
                         <h4>Name</h4>
                         <p>Designation</p>
                     </Col>
                     <Col md="3" xs="6">
-                        <Image src="/images/profile.jpg" className="profile-img" />
+                        <Image src="/images/team/4.jpg" className="profile-img" />
                         <h4>Name</h4>
                         <p>Designation</p>
                     </Col>
                     <Col md="3" xs="6">
-                        <Image src="/images/profile.jpg" className="profile-img" />
+                        <Image src="/images/team/5.jpeg" className="profile-img" />
                         <h4>Name</h4>
                         <p>Designation</p>
                     </Col>
                     <Col md="3" xs="6">
-                        <Image src="/images/profile.jpg" className="profile-img" />
+                        <Image src="/images/team/6.jpg" className="profile-img" />
                         <h4>Name</h4>
                         <p>Designation</p>
                     </Col>
                     <Col md="3" xs="6">
-                        <Image src="/images/profile.jpg" className="profile-img" />
+                        <Image src="/images/team/7.jpeg" className="profile-img" />
                         <h4>Name</h4>
                         <p>Designation</p>
                     </Col>
                     <Col md="3" xs="6">
-                        <Image src="/images/profile.jpg" className="profile-img" />
+                        <Image src="/images/team/8.jpeg" className="profile-img" />
                         <h4>Name</h4>
                         <p>Designation</p>
                     </Col>
                     <Col md="3" xs="6">
-                        <Image src="/images/profile.jpg" className="profile-img" />
+                        <Image src="/images/team/9.jpg" className="profile-img" />
                         <h4>Name</h4>
                         <p>Designation</p>
                     </Col>
                     <Col md="3" xs="6">
-                        <Image src="/images/profile.jpg" className="profile-img" />
+                        <Image src="/images/team/10.jpg" className="profile-img" />
                         <h4>Name</h4>
                         <p>Designation</p>
                     </Col>
                     <Col md="3" xs="6">
-                        <Image src="/images/profile.jpg" className="profile-img" />
+                        <Image src="/images/team/1.jpeg" className="profile-img" />
                         <h4>Name</h4>
                         <p>Designation</p>
                     </Col>
                     <Col md="3" xs="6">
-                        <Image src="/images/profile.jpg" className="profile-img" />
+                        <Image src="/images/team/2.jpg" className="profile-img" />
                         <h4>Name</h4>
                         <p>Designation</p>
                     </Col>
@@ -359,7 +351,7 @@ function EventsPage() {
                         <Col md="12" sm="12">
                             <div className="text-center">
                                 <div>
-                                    <Image src="/images/aave.jpg" rounded className="details-section-img" />
+                                    <Image src="/images/sponsors/2.jfif" rounded className="details-section-img" />
                                     <div className="text text-center">
                                         <h3>AAVE CHAINLINK</h3>
                                     </div>
@@ -368,7 +360,7 @@ function EventsPage() {
                         </Col>
                         <Col md="6" sm="12">
                             <div>
-                                <Image src="/images/solana.png" rounded className="details-section-img" />
+                                <Image src="/images/sponsors/aave.jpg" rounded className="details-section-img" />
                                 <div className="text">
                                     <h3>1INCH</h3>
                                 </div>
@@ -376,7 +368,7 @@ function EventsPage() {
                         </Col>
                         <Col md="6" sm="12" >
                             <div>
-                                <Image src="/images/solana.png" rounded className="details-section-img" />
+                                <Image src="/images/sponsors/3.png" rounded className="details-section-img" />
                                 <div className="text">
                                     <h3>1INCH</h3>
                                 </div>
@@ -384,7 +376,7 @@ function EventsPage() {
                         </Col>
                         <Col md="4">
                             <div>
-                                <Image src="/images/chain.jfif" rounded className="details-section-img" />
+                                <Image src="/images/sponsors/2.jfif" rounded className="details-section-img" />
                                 <div className="text">
                                     <h3>CHAINLINK</h3>
                                 </div>
@@ -392,7 +384,7 @@ function EventsPage() {
                         </Col>
                         <Col md="4">
                             <div>
-                                <Image src="/images/chain.jfif" rounded className="details-section-img" />
+                                <Image src="/images/sponsors/2.jfif" rounded className="details-section-img" />
                                 <div className="text">
                                     <h3>CHAINLINK</h3>
                                 </div>
@@ -400,7 +392,7 @@ function EventsPage() {
                         </Col>
                         <Col md="4">
                             <div>
-                                <Image src="/images/chain.jfif" rounded className="details-section-img" />
+                                <Image src="/images/sponsors/2.jfif" rounded className="details-section-img" />
                                 <div className="text">
                                     <h3>CHAINLINK</h3>
                                 </div>
@@ -408,7 +400,7 @@ function EventsPage() {
                         </Col>
                         <Col md="4">
                             <div>
-                                <Image src="/images/solana.png" rounded className="details-section-img" />
+                                <Image src="/images/sponsors/3.png" rounded className="details-section-img" />
                                 <div className="text">
                                     <h3>1INCH</h3>
                                 </div>
@@ -416,7 +408,7 @@ function EventsPage() {
                         </Col>
                         <Col md="4">
                             <div>
-                                <Image src="/images/chain.jfif" rounded className="details-section-img" />
+                                <Image src="/images/sponsors/2.jfif" rounded className="details-section-img" />
                                 <div className="text">
                                     <h3>CHAINLINK</h3>
                                 </div>
@@ -424,7 +416,7 @@ function EventsPage() {
                         </Col>
                         <Col md="4">
                             <div>
-                                <Image src="/images/solana.png" rounded className="details-section-img" />
+                                <Image src="/images/sponsors/3.png" rounded className="details-section-img" />
                                 <div className="text">
                                     <h3>1INCH</h3>
                                 </div>
@@ -432,7 +424,7 @@ function EventsPage() {
                         </Col>
                         <Col md="3">
                             <div>
-                                <Image src="/images/aave.jpg" rounded className="details-section-img" />
+                                <Image src="/images/sponsors/aave.jpg" rounded className="details-section-img" />
                                 <div className="text">
                                     <h3>AAVE</h3>
                                 </div>
@@ -440,7 +432,7 @@ function EventsPage() {
                         </Col>
                         <Col md="3">
                             <div>
-                                <Image src="/images/solana.png" rounded className="details-section-img" />
+                                <Image src="/images/sponsors/3.png" rounded className="details-section-img" />
                                 <div className="text">
                                     <h3>1INCH</h3>
                                 </div>
@@ -448,7 +440,7 @@ function EventsPage() {
                         </Col>
                         <Col md="3">
                             <div>
-                                <Image src="/images/solana.png" rounded className="details-section-img" />
+                                <Image src="/images/sponsors/aave.jpg" rounded className="details-section-img" />
                                 <div className="text">
                                     <h3>1INCH</h3>
                                 </div>
@@ -456,7 +448,7 @@ function EventsPage() {
                         </Col>
                         <Col md="3">
                             <div>
-                                <Image src="/images/aave.jpg" rounded className="details-section-img" />
+                                <Image src="/images/sponsors/aave.jpg" rounded className="details-section-img" />
                                 <div className="text">
                                     <h3>AAVE</h3>
                                 </div>

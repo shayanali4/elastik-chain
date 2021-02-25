@@ -1,7 +1,7 @@
 
 import './style.css'
 
-function EventForm()  {
+function RegistrationForm()  {
     return (
 
 <div>
@@ -24,7 +24,7 @@ function EventForm()  {
   <div className="contents">
 
 
-<img src="/images/crystal-logo.png"  alt=""/>
+<img src="/images/logo/logo-tagline.png"  alt=""/>
 </div>
 
   <div class="col-md-6 left">
@@ -153,4 +153,4 @@ I just want to contribute to the community      </label>
     );
   }
 
-export default EventForm;
+export default RegistrationForm;

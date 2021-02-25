@@ -186,6 +186,11 @@
 .events-page .schedule .mentors .profile-img{
     max-width: 100px;
     margin-bottom: 10px;
+    transition: 0.7s;
+    cursor: pointer;
+}
+.events-page .schedule .mentors .profile-img:hover{
+    transform: scale(1.03);
 }
 .events-page .schedule .mentors h4{
     margin-bottom: 0;
@@ -199,6 +204,10 @@
 }
 .events-page .sponsors>div>div{
     padding: 0;
+    transition: 0.7s;
+}
+.events-page .sponsors>div>div:hover{
+    transform: scale(1.02);
 }
 .events-page .sponsors>div>div>div>div{
     display: flex;
