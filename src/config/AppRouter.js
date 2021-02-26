@@ -4,7 +4,7 @@ import {
     Route
 } from "react-router-dom";
 import EventsPage from '../pages/EventsPage/EventsPage';
-import LandingPage from '../pages/LandingPage/LandingPage';
+import LandingPage from '../pages/LandingPage/LandingPage.jsx';
 import ProjectPage from '../pages/ProjectPage/ProjectPage';
 import DetailsPage from '../pages/DetailsPage';
 import RegistrationForm from '../pages/RegistationForm/RegistrationForm';

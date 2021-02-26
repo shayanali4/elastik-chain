@@ -112,6 +112,7 @@ width: 100%;}
 .modal-open .modal {
     overflow-x: hidden;
     overflow-y: auto;
+    background-color: white;
 }
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: #8D8D8D;
@@ -481,7 +482,7 @@ width: 100%;}
 
       .modal-content {
         box-shadow: 0 5px 15px rgb(0 0 0 / 50%);
-        width: 222%;
+        width: 212%;
         margin-left: -62%;
         margin-top: -19%;
         /* text-align: center; */
@@ -656,3 +657,23 @@ width: 100%;}
 
 
    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

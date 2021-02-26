@@ -4,14 +4,7 @@ import './style.css'
 function RegistrationForm()  {
     return (
 
-<div>
-<button type="button" className="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Form</button>
-<div id="myModal" className="modal fade" role="dialog">
-        <div className="modal-dialog">
-          {/* Modal content*/}
-          <div className="modal-content">
-            
-            <div className="modal-body">
+
       
               <div class="container- container-fluid1">
   <div class="row row1">
@@ -134,17 +127,7 @@ I just want to contribute to the community      </label>
 
 </div>
 
-            </div>
-            <div className="modal-footer">
-              <button type="button" className="btn btn-default" data-dismiss="modal">Close</button>
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-
-      </div>
+         
 
             
 
